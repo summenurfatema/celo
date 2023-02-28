@@ -51,10 +51,10 @@ const Ecosystem = () => {
         <div className='py-10 bg-[#FBF6F1] px-1 md:px-5 lg:px-10'>
             <div className='flex flex-col md:items-start lg:flex-row justify-between lg:items-center md:px-10 pl-0 ml-2 md:pl-10 overflow-x-hidden'>
                 <div data-aos="fade-right" >
-                <h1 className='text-2xl tracking-tight font-medium lg:text-5xl lg:font-thin py-0 lg:py-2 font-Sansita'>The blockchain ecosystem</h1>
-                <h1 className='text-2xl tracking-tight font-medium lg:text-5xl lg:font-thin py-0 lg:py-2 font-Sansita'>built with purpose</h1>
+                <h1 className='text-2xl tracking-tight text-center md:text-start font-medium lg:text-5xl lg:font-thin py-0 lg:py-2 font-Sansita'>The blockchain ecosystem</h1>
+                <h1 className='text-2xl tracking-tight text-center md:text-start font-medium lg:text-5xl lg:font-thin py-0 lg:py-2 font-Sansita'>built with purpose</h1>
                 </div>
-                <button data-aos="fade-left"  className='font-semibold text-sm lg:text-xl pr-24 lg:pr-0 mt-5 lg:mt-0'>Explore the Celo ecosystem <span><IoMdArrowDropright className='inline text-xl md:text-2xl rounded-full text-white bg-gray-900 hover:bg-yellow-300 hover:text-black'/></span></button>
+                <button data-aos="fade-left"  className='font-semibold text-sm lg:text-xl pl-7 md:pl-0 mt-5 lg:mt-0'>Explore the Celo ecosystem <span><IoMdArrowDropright className='inline text-xl md:text-2xl rounded-full text-white bg-gray-900 hover:bg-yellow-300 hover:text-black'/></span></button>
             </div>
         <div data-aos="zoom-in"  className='h-[310px] md:h-[550px] lg:h-[480px]  grid grid-cols-3 lg:grid-cols-4 px-10 md:px-16 lg:px-20 pt-7'>
 

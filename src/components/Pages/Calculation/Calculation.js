@@ -6,7 +6,7 @@ const Calculation = () => {
     AOS.init()
     return (
         <div className='-pt-6 '>
-        <div className='relative w-[320px] md:w-full h-[420px] md:h-[540px] bg-[#FBF6F1] overflow-x-hidden'>
+        <div className='relative w-full h-[420px] md:h-[540px] md:w-full  bg-[#FBF6F1] overflow-x-hidden'>
 
            {/* box1 */}
             <div data-aos="fade-left" className='h-96 w-36 md:h-[400px] md:w-[400px] lg:h-[531px] lg:w-[643px] border bg-[#EDEBE1] border-gray-700 absolute right-4 lg:right-20 z-30 lg:z-10'>
@@ -30,7 +30,7 @@ const Calculation = () => {
                 </div>
             </div>
                  {/* box3 */}
-            <div  data-aos="fade-left" className='h-56 w-36 md:h-[224px] md:w-[400px] lg:h-[211px] lg:w-[426px] border bg-[#EDEBE1] border-gray-700 absolute right-7 top-40 md:top-44 md:right-16 lg:right-[800px] lg:top-80 z-30 lg:z-40'>
+            <div  data-aos="fade-left" className='h-56 w-36 md:h-[224px] md:w-[400px] lg:h-[211px] lg:w-[426px] border bg-[#EDEBE1] border-gray-700 absolute right-7 top-40 md:top-44 md:right-16 lg:right-[550px] lg:top-80 z-30 lg:z-40'>
             <div className='pl-3 md:pl-6 lg:pl-10  pt-3'>
                 <h2 className='text-2xl font-Spectral md:text-3xl lg:text-5xl mb-1'>
                 <CountUp start={0} end={5}></CountUp> 
@@ -40,7 +40,7 @@ const Calculation = () => {
                 </div>
             </div>
                  {/* box4 */}
-            <div  data-aos="fade-right" className='h-32 w-36 md:h-[140px] md:w-[380px] lg:h-[147px] lg:w-[386px] border bg-[#EDEBE1] border-gray-700 absolute top-[256px] left-4 md:top-[260px]  lg:left-[610px] lg:top-96 z-40'>
+            <div  data-aos="fade-right" className='h-32 w-36 md:h-[140px] md:w-[380px] lg:h-[147px] lg:w-[386px] border bg-[#EDEBE1] border-gray-700 absolute top-[256px] left-4 md:top-[260px]  lg:left-[610px] xl:left-[910px] lg:top-96 z-40'>
             <div className='pl-3 md:pl-6 lg:pl-10  pt-4'>
                 <h2 className='text-2xl md:text-3xl font-Spectral lg:text-5xl mb-1'>$0.0005
                 

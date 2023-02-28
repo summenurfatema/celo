@@ -19,7 +19,7 @@ const MultipleContents = () => {
         <p className='text-xl md:text-2xl font-thin pt-5'>integrate once, then scale to any size, Celos ecosystems ensures 
         seamless composability across systems, so you never have to be worry about it.</p>
                 </div>
-                <div className='-pl-5 lg:pl-10 xl:pl-20 w-full md:w-1/2'>
+                <div className='pl-5 lg:pl-10 xl:pl-20 w-full md:w-1/2'>
            <Lottie data-aos="zoom-out-left" loop={true} className='w-[200px] md:w-[270px] lg:w-[300px] xl:w-[400px]' animationData={animation1}/>
            </div>
             </div>
@@ -32,7 +32,7 @@ const MultipleContents = () => {
         <p className='text-xl md:text-2xl font-thin pt-5'>Mobile-first makes Web3 universally accessible. With low cost, 
         multi-currency gas fees and an ultralight client,transactions are lighting fast.</p>
                 </div>
-                <div className='-pl-5 lg:-pl-3 xl:pl-32 w-full md:w-1/2'>
+                <div className='pl-5 lg:-pl-3 xl:pl-32 w-full md:w-1/2'>
            <Lottie data-aos="zoom-out-right" loop={true} className='w-[200px] md:w-[270px] lg:w-[300px] xl:w-[400px]' animationData={animation2}/>
            </div>
             </div>
@@ -40,12 +40,12 @@ const MultipleContents = () => {
             {/* div3*/}
             <div className='flex flex-col md:flex-row justify-between items-center px-10'>
                 <div data-aos="zoom-out-right"  className='w-full md:w-1/2'>
-                <h1 className='text-3xl md:text-4xl tracking-tighter font-thin font-Sansita'> A regenerative path towards</h1>
-                <h1 className='text-3xl md:text-4xl font-thin font-Sansita'>prosperity</h1>
+                <h1 className='text-3xl md:text-4xl tracking-tighter font-thin font-Sansita'> A regenerative path</h1>
+                <h1 className='text-3xl md:text-4xl font-thin tracking-tighter font-Sansita'>towards prosperity</h1>
         <p className='text-xl md:text-2xl font-thin pt-5'>Think and build bigger with our rich ReFi ecosystem using 
         assets and primitives native to Celo.</p>
                 </div>
-                <div className='-pl-5 lg:pl-10 xl:pl-32 w-full md:w-1/2'>
+                <div className='pl-5 lg:pl-10 xl:pl-32 w-full md:w-1/2'>
            <Lottie data-aos="zoom-out-left" loop={true} className='w-[200px] md:w-[270px] lg:w-[300px] xl:w-[400px]' animationData={animation3}/>
            </div>
             </div>
