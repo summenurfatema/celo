@@ -4,6 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+
+     extend: {
+      fontFamily: {
+        Sansita: ["Sansita Swashed", "cursive"],
+        Spectral:['Sansita Swashed', "cursive", 'Spectral', "serif"]
+      },
+    
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
